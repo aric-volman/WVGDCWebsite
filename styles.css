@@ -1,0 +1,67 @@
+/*
+ * Custom CSS
+ */
+
+ :root {
+  --bs-body-bg: var(--bs-black);
+}
+
+body {
+	font-family: 'SF Pixelate', sans-serif;
+	color: white;
+}
+
+p {
+	font-family: 'SF Pixelate', sans-serif;
+	color: white;
+}
+
+.fix {
+	font-family: 'SF Pixelate', sans-serif;
+	color: white;
+}
+
+
+ .container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+carousel-item-next{
+  transition: transform 0s ease-in-out;
+}
+
+.carousel-item-prev{
+    transition: transform 0s ease-in-out;
+}
+.carousel-item-left {
+    transform: translateX(-100%);
+}
+.carousel-item-right {
+    transform: translateX(100%);
+}
+
+.come-in {
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+    margin:auto;
+}
+
+.navbar li>a{color:white; }
+.navbar li>a:hover{background:white; color:black; }
+
+.dropdown-menu li>a{color:white; }
+.dropdown-menu li>a:hover{background:white; color:black;}
+
+.nav-link li>a{color:black; }
+.nav-link li>a:hover{background:white; color:black; }
+.nav-link li>a:active{color: black; }
+.nav-link li>a:visited{color: black; }

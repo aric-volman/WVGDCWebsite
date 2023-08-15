@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WVGDC</title>
+	<link href="https://fonts.cdnfonts.com/css/sf-pixelate" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+		<link rel="icon" href="https://cdn.discordapp.com/emojis/965487576490336337.webp?size=128&quality=lossless"></link>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+   </head>
+  <body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid">
+	  <a href="main.html"><img class="navbar-brand" src="https://cdn.discordapp.com/icons/763614762298114069/cc7eb44e32e0398968a97190080497a3.webp?size=64"></img></a>
+
+    <button class="navbar-toggler" style="margin-right:5px !important;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+    <div class="collapse navbar-collapse top_nav" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto ">
+		  <li class="nav-item active">
+			<a class="nav-link" href="about.html">Leadership</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="outreach.html">Outreach</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="recognition.html">Recognition</a>
+		  </li>
+		  		<!-- Dropdown -->
+		
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Games!
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item  href="#">Orchitects</a></li>
+            <li><a class="dropdown-item" href="#">Green City</a></li>
+            <li><a class="dropdown-item" href="#">Thug Shaker Trilogy</a></li>
+            <li><a class="dropdown-item" href="#">Deus Ex Machina</a></li>
+			<li><a class="dropdown-item" href="#">Egg Rolls of the Dice</a></li>
+          </ul>
+        </li>
+	<!-- Dropdown -->
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Nav -->
+
+<div class="container my-5">
+
+
+ <!--Section: Content-->
+  <section class="team-section text-center dark-grey-text come-in">
+
+    <!-- Section heading -->
+    <h3 class="font-weight-bold pb-2 mb-4">Exec Team & Leadership</h3>
+
+	  <!-- Grid column -->
+      <div class="col-lg-6 col-md-12 mb-5 h-100 d-flex align-items-center justify-content-center position-relative start-50 translate-middle-x">
+        <div class="avatar mb-md-0 mb-4 mx-4">
+          <img src="https://cdn.discordapp.com/avatars/513447012998447115/b037fc9a6d8eb0c7e57149d623e7fcb1?size=256" class="rounded z-depth-1 img-fluid"
+            alt="Sample avatar">
+        </div>
+        <div class="mx-4">
+          <h4 class="font-weight-bold mb-3">Rahul J.</h4>
+          <h6 class="font-weight-bold grey-text mb-3">Exec</h6>
+          <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic
+            tenetur.</p>
+        </div>
+      </div>
+      <!-- Grid column -->
+	  
+      <!-- Grid column -->
+      <div class="col-lg-6 col-md-12 mb-5 h-100 d-flex align-items-center justify-content-center position-relative start-50 translate-middle-x">
+        <div class="avatar mb-md-0 mb-4 mx-4">
+          <img src="https://cdn.discordapp.com/avatars/449271555445489665/152ff241689c05ee364c0758e3bb71ae?size=256" class="rounded z-depth-1" alt="Sample avatar">
+        </div>
+        <div class="mx-4">
+          <h4 class="font-weight-bold mb-3">Adam L.</h4>
+          <h6 class="font-weight-bold grey-text mb-3">Exec</h6>
+          <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic
+            tenetur.</p>
+        </div>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-6 col-md-12 mb-5 h-100 d-flex align-items-center justify-content-center position-relative start-50 translate-middle-x">
+        <div class="avatar mb-md-0 mb-4 mx-4">
+          <img src="https://cdn.discordapp.com/avatars/455717440211386388/0cf935a724273451b9b576f5cb9a8038?size=256" class="rounded z-depth-1" alt="Sample avatar">
+        </div>
+        <div class="mx-4">
+          <h4 class="font-weight-bold mb-3">Jacob Y.</h4>
+          <h6 class="font-weight-bold grey-text mb-3">Exec</h6>
+          <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic
+            tenetur.</p>
+        </div>
+      </div>
+      <!-- Grid column -->
+
+
+
+      <!-- Grid column -->
+      <div class="col-lg-6 col-md-12 mb-5 h-100 d-flex align-items-center justify-content-center position-relative start-50 translate-middle-x">
+        <div class="avatar mb-md-0 mb-4 mx-4">
+          <img src="https://cdn.discordapp.com/avatars/394597875402932225/bfa13c877329051403e3a204a662dfcc?size=256" class="rounded z-depth-1" alt="Sample avatar">
+        </div>
+        <div class="mx-4">
+          <h4 class="font-weight-bold mb-3">Daniel M.</h4>
+          <h6 class="font-weight-bold grey-text mb-3">Exec</h6>
+          <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic
+            tenetur.</p>
+        </div>
+      </div>
+      <!-- Grid column -->
+	  
+	  <!-- Grid column -->
+      <div class="col-lg-6 col-md-12 mb-5 h-100 d-flex align-items-center justify-content-center position-relative start-50 translate-middle-x">
+        <div class="avatar mb-md-0 mb-4 mx-4">
+          <img src="https://cdn.discordapp.com/avatars/589108870773735441/dec51e7793158d7fbe6ee24bd956e40d?size=256" class="rounded z-depth-1" alt="Sample avatar">
+        </div>
+        <div class="mx-4">
+          <h4 class="font-weight-bold mb-3">Nikolas</h4>
+          <h6 class="font-weight-bold grey-text mb-3">Student Leader</h6>
+          <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic
+            tenetur.</p>
+        </div>
+      </div>
+      <!-- Grid column -->
+	  
+	  	  <!-- Grid column -->
+      <div class="col-lg-6 col-md-12 mb-5 h-100 d-flex align-items-center justify-content-center position-relative start-50 translate-middle-x">
+        <div class="avatar mb-md-0 mb-4 mx-4">
+          <img src="https://cdn.discordapp.com/avatars/719674445815349300/49d40d65eab97096d7e87ec5c8d9b76c?size=256" class="rounded z-depth-1" alt="Sample avatar">
+        </div>
+        <div class="mx-4">
+          <h4 class="font-weight-bold mb-3">Miles</h4>
+          <h6 class="font-weight-bold grey-text mb-3">Student Leader</h6>
+          <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic
+            tenetur.</p>
+        </div>
+      </div>
+      <!-- Grid column -->
+
+  </section>
+  <!--Section: Content-->
+
+
+</div>
+
+
+  <script src="main.js"></script>
+  </body>
+</html>
