@@ -55,6 +55,12 @@ carousel-item-next{
     margin:auto;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .navbar li>a{color:white; }
 .navbar li>a:hover{background:white; color:black; }
 

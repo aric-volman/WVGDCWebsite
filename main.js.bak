@@ -1,6 +1,0 @@
-$(document).on("scroll",function(){
-if($(document).scrollTop()>200){
-    $('#slider').carousel('pause');
-} else{
-    $('#slider').carousel('cycle');
-}});
