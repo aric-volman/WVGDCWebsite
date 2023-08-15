@@ -3,7 +3,7 @@
  */
 
  :root {
-  --bs-body-bg: var(--bs-black);
+  --bs-body-bg: var(--custom-prop, #000000);
 }
 
 body {
@@ -71,3 +71,7 @@ carousel-item-next{
 .nav-link li>a:hover{background:white; color:black; }
 .nav-link li>a:active{color: black; }
 .nav-link li>a:visited{color: black; }
+
+.navbar-brand {
+  filter: drop-shadow(0 0 0.1rem #fffff3);
+}
