@@ -1,2 +1,2 @@
 # WVGDCWebsite
- Website for WV Game Design
+ Website draft for WV Game Design
